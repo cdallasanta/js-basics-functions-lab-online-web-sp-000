@@ -12,7 +12,7 @@ function distanceTravelledInFeet(pickup, end) {
 }
 
 function calculatesFarePrice(pickup, end ) {
-  let ditance = distanceTravelledInFeet(pickup, end)
+  let distance = distanceTravelledInFeet(pickup, end)
 
   if(distance < 2000) {
     return (distance-400) * .02;
